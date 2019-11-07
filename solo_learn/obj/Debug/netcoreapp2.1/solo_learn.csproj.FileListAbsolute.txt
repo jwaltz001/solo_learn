@@ -1,0 +1,10 @@
+/Users/justinwaltz/Projects/solo_learn/solo_learn/bin/Debug/netcoreapp2.1/solo_learn.deps.json
+/Users/justinwaltz/Projects/solo_learn/solo_learn/bin/Debug/netcoreapp2.1/solo_learn.runtimeconfig.json
+/Users/justinwaltz/Projects/solo_learn/solo_learn/bin/Debug/netcoreapp2.1/solo_learn.runtimeconfig.dev.json
+/Users/justinwaltz/Projects/solo_learn/solo_learn/bin/Debug/netcoreapp2.1/solo_learn.dll
+/Users/justinwaltz/Projects/solo_learn/solo_learn/bin/Debug/netcoreapp2.1/solo_learn.pdb
+/Users/justinwaltz/Projects/solo_learn/solo_learn/obj/Debug/netcoreapp2.1/solo_learn.csprojAssemblyReference.cache
+/Users/justinwaltz/Projects/solo_learn/solo_learn/obj/Debug/netcoreapp2.1/solo_learn.AssemblyInfoInputs.cache
+/Users/justinwaltz/Projects/solo_learn/solo_learn/obj/Debug/netcoreapp2.1/solo_learn.AssemblyInfo.cs
+/Users/justinwaltz/Projects/solo_learn/solo_learn/obj/Debug/netcoreapp2.1/solo_learn.dll
+/Users/justinwaltz/Projects/solo_learn/solo_learn/obj/Debug/netcoreapp2.1/solo_learn.pdb
