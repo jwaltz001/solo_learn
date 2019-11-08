@@ -10,7 +10,11 @@ namespace code_wars
         //If there is no index that would make this happen, return -1.
         public static int FindEvenIndex(int[] arr, int n = 0)
         {
-            Console.WriteLine(n);
+            //Console.WriteLine(n);
+            if (n == arr.Length - 1)
+            {
+                return -1;
+            }
             //Declare variables
             int sumLeft = 0;
             int sumRight = 0;
@@ -19,23 +23,20 @@ namespace code_wars
             {
                 sumLeft += arr[i];
             }
-            Console.WriteLine(sumLeft);
+            //Console.WriteLine(sumLeft);
             for (int i = n + 1; i < arr.Length; i++)
             {
                 sumRight += arr[i];
                 
             }
-            Console.WriteLine(sumRight);
+            //Console.WriteLine(sumRight);
             //check if sum of right and left are equal
             if (sumLeft == sumRight)
             {
                 return n;
             }
-            if (n == arr.Length - 1)
-            {
-                return -1;
-            }
-            return FindEvenIndex(arr, n++);
+            n++;
+            return FindEvenIndex(arr, n);
             //else
             //{
             //    return FindEvenIndex(arr, n++);
