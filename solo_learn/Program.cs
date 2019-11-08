@@ -5,49 +5,59 @@ namespace code_wars
 {
     class Program
     {
-        //You are going to be given an array of integers.
-        //find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N.
-        //If there is no index that would make this happen, return -1.
-        public static int FindEvenIndex(int[] arr, int n = 0)
+        //#3 
+        public static string Longest(string s1, string s2)
         {
-            //Console.WriteLine(n);
-            if (n == arr.Length - 1)
-            {
-                return -1;
-            }
-            //Declare variables
-            int sumLeft = 0;
-            int sumRight = 0;
-            //sum up right and left
-            for (int i = 0; i < n; i++)
-            {
-                sumLeft += arr[i];
-            }
-            //Console.WriteLine(sumLeft);
-            for (int i = n + 1; i < arr.Length; i++)
-            {
-                sumRight += arr[i];
-                
-            }
-            //Console.WriteLine(sumRight);
-            //check if sum of right and left are equal
-            if (sumLeft == sumRight)
-            {
-                return n;
-            }
-            n++;
-            return FindEvenIndex(arr, n);
-            //else
-            //{
-            //    return FindEvenIndex(arr, n++);
-            //}
+            //make a new string and put first letter in it
 
         }
+        ////#2 You are going to be given an array of integers.
+        ////find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N.
+        ////If there is no index that would make this happen, return -1.
+        //public static int FindEvenIndex(int[] arr, int n = 0)
+        //{
+        //    //Console.WriteLine(n);
+        //    if (n == arr.Length - 1)
+        //    {
+        //        return -1;
+        //    }
+        //    //Declare variables
+        //    int sumLeft = 0;
+        //    int sumRight = 0;
+        //    //sum up right and left
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        sumLeft += arr[i];
+        //    }
+        //    //Console.WriteLine(sumLeft);
+        //    for (int i = n + 1; i < arr.Length; i++)
+        //    {
+        //        sumRight += arr[i];
+
+        //    }
+        //    //Console.WriteLine(sumRight);
+        //    //check if sum of right and left are equal
+        //    if (sumLeft == sumRight)
+        //    {
+        //        return n;
+        //    }
+        //    n++;
+        //    return FindEvenIndex(arr, n);
+        //    //else
+        //    //{
+        //    //    return FindEvenIndex(arr, n++);
+        //    //}
+
+        //}
 
         static void  Main(string[] args)
         {
-            Console.WriteLine(FindEvenIndex(new int[] { 1, 100, 50, -51, 1, 1 }));
-            Console.WriteLine(FindEvenIndex(new int[] { 1, 2, 3, 4, 3, 2, 1 }));
+
+
+
+            //Console.WriteLine(FindEvenIndex(new int[] { 1, 100, 50, -51, 1, 1 }));
+            //Console.WriteLine(FindEvenIndex(new int[] { 1, 2, 3, 4, 3, 2, 1 }));
+            //Console.WriteLine(FindEvenIndex(new int[] { 20, 10, 30, 10, 10, 15, 35 }));
             //int a = 7;
             //int b = 5;
             ////declare array to store remainders(bits)
